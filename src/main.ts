@@ -1,10 +1,10 @@
 import { createApp } from "vue";
 import App from "./App.vue";
 import "./index.css";
-import CompletionRecord from "./components/CompletionRecord.vue";
+import HabitCheckbox from "./components/HabitCheckbox.vue";
 import HabitList from "./components/HabitList.vue";
 
 createApp(App)
-  .component("CompletionRecord", CompletionRecord)
+  .component("HabitCheckbox", HabitCheckbox)
   .component("HabitList", HabitList)
   .mount("#app");

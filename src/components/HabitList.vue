@@ -20,7 +20,7 @@ const props = defineProps<Props>();
                 />
             </li>
             <li class="px-1">
-                <input type="checkbox" class="w-4 h-4" />
+                <HabitCheckbox />
             </li>
         </ul>
     </div>
