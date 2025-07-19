@@ -8,7 +8,10 @@ const props = defineProps<Props>();
 </script>
 
 <template>
-    <div v-for="p in props.records" class="grid grid-cols-4">
+    <div
+        v-for="p in props.records"
+        class="grid grid-cols-4 bg-teal-700 p-4 rounded-xl"
+    >
         <p class="col-span-1">{{ p.name }}</p>
         <ul class="col-span-3 w-full flex items-center justify-start">
             <li v-for="h in p.history" class="px-1">

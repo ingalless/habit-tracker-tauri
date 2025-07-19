@@ -13,10 +13,10 @@ async function addHabit() {
 </script>
 
 <template>
-    <main class="container max-w-xl mx-auto">
+    <main class="container max-w-xl mx-auto p-4 space-y-4 text-lg">
         <h1 class="text-2xl">Daily Habit Tracker</h1>
 
-        <form class="grid grid-cols-2" @submit.prevent="addHabit">
+        <form class="grid lg:grid-cols-2 gap-2" @submit.prevent="addHabit">
             <input
                 id="greet-input"
                 v-model="name"
